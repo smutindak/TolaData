@@ -64,7 +64,7 @@ public class PhasesTestCases extends BaseTest {
         details.populateProjectPhaseData(RandomDataSets.randomPhaseNames());
         details.saveProject();
 
-        //Assert project has been created successfully
+        //Assert project phase has been created successfully
         Assert.assertTrue(projectAssertions.getActualProjectCreatedMessageAlert().contains(projectAssertions.getExpectedProjectPhaseCreatedMessageAlert()));
         projectAssertions.waitUntilProjectSuccessMessageHasDisappeared();
     }
@@ -73,7 +73,7 @@ public class PhasesTestCases extends BaseTest {
     public void testEditAlreadyCreatedPhaseSuccessfully() {
         details.editPhase(RandomDataSets.randomPhaseNames());
 
-        //Assert project has been created successfully
+        //Assert project has been edited successfully
         Assert.assertTrue(projectAssertions.getActualProjectCreatedMessageAlert().contains(projectAssertions.getExpectedProjectPhaseUpdatedMessageAlert()));
         projectAssertions.waitUntilProjectSuccessMessageHasDisappeared();
     }
@@ -81,7 +81,7 @@ public class PhasesTestCases extends BaseTest {
     @Test(priority = 3)
     public void testDeleteAlreadyCreatedPhaseSuccessfully() {
         details.deletePhase();
-        //Assert project has been created successfully
+        //Assert project has been deleted successfully
         Assert.assertTrue(projectAssertions.getActualProjectCreatedMessageAlert().contains(projectAssertions.getExpectedProjectPhaseDeletedMessageAlert()));
         projectAssertions.waitUntilProjectSuccessMessageHasDisappeared();
     }

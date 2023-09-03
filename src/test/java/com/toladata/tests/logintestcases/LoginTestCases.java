@@ -52,6 +52,7 @@ public class LoginTestCases extends BaseTest {
         login.clickOnCaptcha();
         login.clickOnLogin();
 
+        //Assert user is unable to login
         Assert.assertEquals(loginAssertions.getActualInvalidLoginError(), loginAssertions.getExpectedInvalidLoginError());
     }
 
@@ -63,6 +64,7 @@ public class LoginTestCases extends BaseTest {
 
         login.userLogin(tUserName, tPassword);
 
+        //Assert password is masked
         Assert.assertEquals(loginAssertions.verifyPasswordIsMaskedType(), loginAssertions.verifyExpectedPasswordIsMaskedType());
     }
 
