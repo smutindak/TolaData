@@ -11,6 +11,7 @@
             <class name="com.toladata.tests.logintestcases.LoginTestCases"/>
         </classes>
     </test>
+
     <test name="Project Phases UI Test Cases">
         <classes>
             <class name="com.toladata.tests.projectphasestestcases.PhasesTestCases"/>

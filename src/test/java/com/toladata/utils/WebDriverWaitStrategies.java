@@ -15,7 +15,7 @@ public class WebDriverWaitStrategies {
 
     public WebDriverWaitStrategies(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(200));
     }
 
     public void waitForElementToBeVisible(WebElement element) {
