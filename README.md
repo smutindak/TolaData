@@ -1,4 +1,4 @@
-# TolaData.io Website Testing with Selenium, TestNG, Webdriver Manager, Log4j, Maven and Jenkins
+# TolaData.io Website Automation Testing with Selenium, TestNG, Webdriver Manager, Log4j, Maven and Jenkins
 
 ![Automated Testing](images/automation.png)
 
@@ -8,15 +8,17 @@ This is a test project to automate TolaData.io, where I have used Selenium for J
 
 ### Selenium
 
+![Selenium Logo](images/selenium.png)
+
 Selenium is a powerful tool for automating web browsers. It allows us to interact with web elements, perform actions on web pages, and verify expected outcomes.
 
-![Selenium Logo](images/selenium.png)
 
 ### TestNG
 
+![TestNG Logo](images/testng.png)
+
 TestNG is a testing framework inspired by JUnit and NUnit. It provides advanced testing capabilities such as parallel execution, data-driven testing, and test suite management.
 
-![TestNG Logo](images/testng.png)
 
 ### Jenkins
 
@@ -26,23 +28,25 @@ Jenkins is a leading open-source automation server. We use Jenkins to automate o
 
 ### Log4J
 
+![Log4J Logo](images/log4j.png)
+
 Log4j, short for "Log for Java," is a widely-used logging framework for Java applications. It provides a flexible and configurable way to manage application logs.
 
-![Log4J Logo](images/log4j.png)
 
 ### Webdriver Manager
 
-WebDriver Manager is a utility tool designed to simplify the setup and management of web drivers for Selenium-based automation testing
-
 ![Webdriver Manager Logo](images/Webdriver_Manager.png)
 
+WebDriver Manager is a utility tool designed to simplify the setup and management of web drivers for Selenium-based automation testing
+
+
 ### Apache Maven
+
+![Apache Maven Logo](images/Apache_Maven_logo.svg.png)
 
 Apache Maven is a powerful and widely-used build automation and project management tool primarily used for Java projects but capable of handling projects in 
 other programming languages as well. Maven simplifies the build process by providing a structured way to define project dependencies, 
 manage project lifecycles, compile source code, run tests, package and distribute applications, and more
-
-![Apache Maven Logo](images/Apache_Maven_logo.svg.png)
 
 
 ## Test Cases for Login Functionality
