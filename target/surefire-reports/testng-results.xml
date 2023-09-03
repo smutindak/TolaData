@@ -1,89 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="4" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-02T20:39:43 EAT" name="TolaData UI Automation Tests" finished-at="2023-09-02T20:41:47 EAT" duration-ms="124422">
+  <suite started-at="2023-09-03T13:00:43 EAT" name="TolaData UI Automation Tests" finished-at="2023-09-03T13:03:02 EAT" duration-ms="139340">
     <groups>
     </groups>
-    <test started-at="2023-09-02T20:39:43 EAT" name="Project Phases Test Cases" finished-at="2023-09-02T20:41:47 EAT" duration-ms="124422">
-      <class name="com.toladata.tests.projectphasestestcases.PhasesTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:39:43 EAT" name="setup" finished-at="2023-09-02T20:39:49 EAT" duration-ms="6471" status="PASS">
+    <test started-at="2023-09-03T13:00:43 EAT" name="Login UI Test Cases" finished-at="2023-09-03T13:01:51 EAT" duration-ms="68417">
+      <class name="com.toladata.tests.logintestcases.LoginTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:00:43 EAT" name="setup" finished-at="2023-09-03T13:00:53 EAT" duration-ms="10399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:39:49 EAT" name="setupPageObjects" finished-at="2023-09-02T20:41:00 EAT" duration-ms="70506" status="PASS">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:00:53 EAT" name="setupPageObjects" finished-at="2023-09-03T13:00:53 EAT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPageObjects -->
-        <test-method signature="testCreateNewProjectSuccessFully()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:00 EAT" name="testCreateNewProjectSuccessFully" finished-at="2023-09-02T20:41:20 EAT" duration-ms="20660" status="PASS">
+        <test-method signature="testInvalidLoginIsWorkingCorrectly()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:00:53 EAT" name="testInvalidLoginIsWorkingCorrectly" finished-at="2023-09-03T13:01:47 EAT" duration-ms="53585" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateNewProjectSuccessFully -->
-        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:20 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:20 EAT" duration-ms="1" status="PASS">
+        </test-method> <!-- testInvalidLoginIsWorkingCorrectly -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="recordFailedTest" finished-at="2023-09-03T13:01:47 EAT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCreateNewProjectSuccessFully status=SUCCESS method=PhasesTestCases.testCreateNewProjectSuccessFully()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLoginIsWorkingCorrectly status=SUCCESS method=LoginTestCases.testInvalidLoginIsWorkingCorrectly()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailedTest -->
-        <test-method signature="testCreateNewPhaseToExistingProject()[pri:1, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:20 EAT" name="testCreateNewPhaseToExistingProject" finished-at="2023-09-02T20:41:33 EAT" duration-ms="12727" status="PASS">
+        <test-method signature="testInvalidUserNameValidPasswordLoginWontAllowLoginSuccess()[pri:1, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="testInvalidUserNameValidPasswordLoginWontAllowLoginSuccess" finished-at="2023-09-03T13:01:47 EAT" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateNewPhaseToExistingProject -->
-        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:33 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:33 EAT" duration-ms="1" status="PASS">
+        </test-method> <!-- testInvalidUserNameValidPasswordLoginWontAllowLoginSuccess -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="recordFailedTest" finished-at="2023-09-03T13:01:47 EAT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCreateNewPhaseToExistingProject status=SUCCESS method=PhasesTestCases.testCreateNewPhaseToExistingProject()[pri:1, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidUserNameValidPasswordLoginWontAllowLoginSuccess status=SUCCESS method=LoginTestCases.testInvalidUserNameValidPasswordLoginWontAllowLoginSuccess()[pri:1, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailedTest -->
-        <test-method signature="testEditAlreadyCreatedPhaseSuccessfully()[pri:2, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:33 EAT" name="testEditAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-02T20:41:40 EAT" duration-ms="7350" status="PASS">
+        <test-method signature="testPasswordIsMaskedCorrectly()[pri:2, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="testPasswordIsMaskedCorrectly" finished-at="2023-09-03T13:01:47 EAT" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEditAlreadyCreatedPhaseSuccessfully -->
-        <test-method signature="testDeleteAlreadyCreatedPhaseSuccessfully()[pri:3, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:40 EAT" name="testDeleteAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-02T20:41:47 EAT" duration-ms="6660" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteAlreadyCreatedPhaseSuccessfully -->
-        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:40 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:40 EAT" duration-ms="0" status="PASS">
+        </test-method> <!-- testPasswordIsMaskedCorrectly -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="recordFailedTest" finished-at="2023-09-03T13:01:47 EAT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEditAlreadyCreatedPhaseSuccessfully status=SUCCESS method=PhasesTestCases.testEditAlreadyCreatedPhaseSuccessfully()[pri:2, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+                <![CDATA[[TestResult name=testPasswordIsMaskedCorrectly status=SUCCESS method=LoginTestCases.testPasswordIsMaskedCorrectly()[pri:2, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailedTest -->
-        <test-method is-config="true" signature="tearDownPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="tearDownPageObjects" finished-at="2023-09-02T20:41:47 EAT" duration-ms="1" status="PASS">
+        <test-method signature="testSuccessfulUserLogin()[pri:3, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:47 EAT" name="testSuccessfulUserLogin" finished-at="2023-09-03T13:01:51 EAT" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulUserLogin -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:51 EAT" name="recordFailedTest" finished-at="2023-09-03T13:01:51 EAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulUserLogin status=SUCCESS method=LoginTestCases.testSuccessfulUserLogin()[pri:3, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:51 EAT" name="teardown" finished-at="2023-09-03T13:01:51 EAT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownPageObjects()[pri:0, instance:com.toladata.tests.logintestcases.LoginTestCases@388526fb]" started-at="2023-09-03T13:01:51 EAT" name="tearDownPageObjects" finished-at="2023-09-03T13:01:51 EAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownPageObjects -->
-        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:47 EAT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testDeleteAlreadyCreatedPhaseSuccessfully status=SUCCESS method=PhasesTestCases.testDeleteAlreadyCreatedPhaseSuccessfully()[pri:3, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
-              </value>
-            </param>
-          </params>
+      </class> <!-- com.toladata.tests.logintestcases.LoginTestCases -->
+    </test> <!-- Login UI Test Cases -->
+    <test started-at="2023-09-03T13:01:51 EAT" name="Project Phases UI Test Cases" finished-at="2023-09-03T13:03:02 EAT" duration-ms="70912">
+      <class name="com.toladata.tests.projectphasestestcases.PhasesTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:01:51 EAT" name="setup" finished-at="2023-09-03T13:01:57 EAT" duration-ms="5561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:01:57 EAT" name="setupPageObjects" finished-at="2023-09-03T13:03:02 EAT" duration-ms="65335" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.toladata.utils.WebDriverWaitStrategies.waitForElementToBeVisibleAndClickable(WebDriverWaitStrategies.java:38)
+at com.toladata.pages.loginpage.LoginPage.clickOnLogin(LoginPage.java:63)
+at com.toladata.tests.projectphasestestcases.PhasesTestCases.setupPageObjects(PhasesTestCases.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="testCreateNewProjectSuccessFully()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="testCreateNewProjectSuccessFully" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.toladata.utils.WebDriverWaitStrategies.waitForElementToBeVisibleAndClickable(WebDriverWaitStrategies.java:38)
+at com.toladata.pages.loginpage.LoginPage.clickOnLogin(LoginPage.java:63)
+at com.toladata.tests.projectphasestestcases.PhasesTestCases.setupPageObjects(PhasesTestCases.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewProjectSuccessFully -->
+        <test-method signature="testCreateNewPhaseToExistingProject()[pri:1, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="testCreateNewPhaseToExistingProject" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.toladata.utils.WebDriverWaitStrategies.waitForElementToBeVisibleAndClickable(WebDriverWaitStrategies.java:38)
+at com.toladata.pages.loginpage.LoginPage.clickOnLogin(LoginPage.java:63)
+at com.toladata.tests.projectphasestestcases.PhasesTestCases.setupPageObjects(PhasesTestCases.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewPhaseToExistingProject -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="recordFailedTest" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailedTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="teardown" finished-at="2023-09-02T20:41:47 EAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="recordFailedTest" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method signature="testEditAlreadyCreatedPhaseSuccessfully()[pri:2, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="testEditAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.toladata.utils.WebDriverWaitStrategies.waitForElementToBeVisibleAndClickable(WebDriverWaitStrategies.java:38)
+at com.toladata.pages.loginpage.LoginPage.clickOnLogin(LoginPage.java:63)
+at com.toladata.tests.projectphasestestcases.PhasesTestCases.setupPageObjects(PhasesTestCases.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAlreadyCreatedPhaseSuccessfully -->
+        <test-method signature="testDeleteAlreadyCreatedPhaseSuccessfully()[pri:3, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="testDeleteAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for all conditions to be valid: visibility of [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] && element to be clickable: [[ChromeDriver: chrome on mac (2c7c1db8d621d09f9cd02ce6ae6515a5)] -> xpath: //button[@type='submit']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/j2/5xymsvsd2ps...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60836/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c7c1db8d621d09f9cd02ce6ae6515a5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.toladata.utils.WebDriverWaitStrategies.waitForElementToBeVisibleAndClickable(WebDriverWaitStrategies.java:38)
+at com.toladata.pages.loginpage.LoginPage.clickOnLogin(LoginPage.java:63)
+at com.toladata.tests.projectphasestestcases.PhasesTestCases.setupPageObjects(PhasesTestCases.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAlreadyCreatedPhaseSuccessfully -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="recordFailedTest" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="recordFailedTest" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method is-config="true" signature="tearDownPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="tearDownPageObjects" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownPageObjects -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6dee4f1b]" started-at="2023-09-03T13:03:02 EAT" name="teardown" finished-at="2023-09-03T13:03:02 EAT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.toladata.tests.projectphasestestcases.PhasesTestCases -->
-    </test> <!-- Project Phases Test Cases -->
+    </test> <!-- Project Phases UI Test Cases -->
   </suite> <!-- TolaData UI Automation Tests -->
 </testng-results>
