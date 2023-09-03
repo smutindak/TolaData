@@ -2,7 +2,7 @@
 
 ![Automated Testing](images/automation.png)
 
-This is a test project to automate TolaData.io, where I have used Selenium for Java, TestNG, Webdriver Manager, Java Faker, Log4j and Jenkins to ensure the quality and reliability of the website.
+- **This is a test project to automate TolaData.io, where I have used Selenium for Java, TestNG, Webdriver Manager, Java Faker, Log4j and Jenkins to ensure the quality and reliability of the website.
 
 ## Tools Used
 
