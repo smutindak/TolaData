@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-02T20:39:43 EAT" name="TolaData UI Automation Tests" finished-at="2023-09-02T20:41:47 EAT" duration-ms="124422">
+    <groups>
+    </groups>
+    <test started-at="2023-09-02T20:39:43 EAT" name="Project Phases Test Cases" finished-at="2023-09-02T20:41:47 EAT" duration-ms="124422">
+      <class name="com.toladata.tests.projectphasestestcases.PhasesTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:39:43 EAT" name="setup" finished-at="2023-09-02T20:39:49 EAT" duration-ms="6471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:39:49 EAT" name="setupPageObjects" finished-at="2023-09-02T20:41:00 EAT" duration-ms="70506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="testCreateNewProjectSuccessFully()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:00 EAT" name="testCreateNewProjectSuccessFully" finished-at="2023-09-02T20:41:20 EAT" duration-ms="20660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewProjectSuccessFully -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:20 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:20 EAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateNewProjectSuccessFully status=SUCCESS method=PhasesTestCases.testCreateNewProjectSuccessFully()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method signature="testCreateNewPhaseToExistingProject()[pri:1, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:20 EAT" name="testCreateNewPhaseToExistingProject" finished-at="2023-09-02T20:41:33 EAT" duration-ms="12727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewPhaseToExistingProject -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:33 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:33 EAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateNewPhaseToExistingProject status=SUCCESS method=PhasesTestCases.testCreateNewPhaseToExistingProject()[pri:1, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method signature="testEditAlreadyCreatedPhaseSuccessfully()[pri:2, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:33 EAT" name="testEditAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-02T20:41:40 EAT" duration-ms="7350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAlreadyCreatedPhaseSuccessfully -->
+        <test-method signature="testDeleteAlreadyCreatedPhaseSuccessfully()[pri:3, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:40 EAT" name="testDeleteAlreadyCreatedPhaseSuccessfully" finished-at="2023-09-02T20:41:47 EAT" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAlreadyCreatedPhaseSuccessfully -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:40 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:40 EAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditAlreadyCreatedPhaseSuccessfully status=SUCCESS method=PhasesTestCases.testEditAlreadyCreatedPhaseSuccessfully()[pri:2, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method is-config="true" signature="tearDownPageObjects()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="tearDownPageObjects" finished-at="2023-09-02T20:41:47 EAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownPageObjects -->
+        <test-method is-config="true" signature="recordFailedTest(org.testng.ITestResult)[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="recordFailedTest" finished-at="2023-09-02T20:41:47 EAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteAlreadyCreatedPhaseSuccessfully status=SUCCESS method=PhasesTestCases.testDeleteAlreadyCreatedPhaseSuccessfully()[pri:3, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailedTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toladata.tests.projectphasestestcases.PhasesTestCases@6731787b]" started-at="2023-09-02T20:41:47 EAT" name="teardown" finished-at="2023-09-02T20:41:47 EAT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.toladata.tests.projectphasestestcases.PhasesTestCases -->
+    </test> <!-- Project Phases Test Cases -->
+  </suite> <!-- TolaData UI Automation Tests -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TolaData UI Automation Tests">
+    <listeners>
+        <listener class-name="com.toladata.utils.TestRetryAnalyzerListener"/>
+        <listener class-name="com.toladata.utils.TestListener"/>
+    </listeners>
+
+    <test name="Project Phases Test Cases">
+        <classes>
+            <class name="com.toladata.tests.projectphasestestcases.PhasesTestCases"/>
+        </classes>
+    </test>
+</suite>
