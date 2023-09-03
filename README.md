@@ -22,9 +22,10 @@ TestNG is a testing framework inspired by JUnit and NUnit. It provides advanced 
 
 ### Jenkins
 
+![Jenkins Logo](images/jenkins.png)
+
 Jenkins is a leading open-source automation server. We use Jenkins to automate our testing process, including triggering tests, generating reports, and managing our CI/CD pipeline.
 
-![Jenkins Logo](images/jenkins.png)
 
 ### Log4J
 
